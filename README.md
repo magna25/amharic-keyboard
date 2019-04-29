@@ -18,7 +18,10 @@ or simply grab keyboard.py and import that.
 import AmharicKeyboard as AK
 
 keyboard = Ak
-print(keyboard.transform("selam nachihu"))
+print(keyboard.transform("selam nachihu?"))  
+
+#prints:
+     ሰላም ናችሁ?
 
 ```
 
