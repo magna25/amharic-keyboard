@@ -12,7 +12,7 @@ It follws the same pattern used for typing Amharic words when texting.
 or simply grab keyboard.py and import that.
 
 
-#usage
+# usage
 
 ```
 import AmharicKeyboard as AK
