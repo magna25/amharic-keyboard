@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="amharic-keyboard-magna25",
+    name="amharic-keyboard",
     version="0.0.1",
     author="Henok Hailemariam",
     author_email="henny.bog@gmail.com",
