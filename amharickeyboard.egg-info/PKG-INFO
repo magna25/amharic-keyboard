@@ -6,7 +6,7 @@ Home-page: https://github.com/magna25/amharic-keyboard
 Author: Henok Hailemariam
 Author-email: henny.bog@gmail.com
 License: UNKNOWN
-Download-URL: https://github.com/magna25/amharic-keyboard/archive/0.0.1.tar.gz
+Download-URL: https://github.com/magna25/amharic-keyboard/archive/0.0.2.tar.gz
 Description: # Amharic-keyboard
         This is a simple python package that lets you type Amharic letters using Latin alphabet. 
         
