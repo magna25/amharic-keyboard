@@ -110,7 +110,7 @@ class AmharicKeyboard(object):
             if str[1] == 'i':
                 return self.alphabets[str[0]][5]
 
-            if str[0] in self.alphabets:
+            if str[0] in self.alphabets and not self.isPunctuation(str[0]):
                 if str[0] == ' ' and str[1] == 'a':
                     return ' ' + self.alphabets['a'][0]
 
@@ -144,7 +144,7 @@ class AmharicKeyboard(object):
                     return self.alphabets[str[0]][2]
 
                 return ""
-            return "here"
+            return ""
         
         elif ln == 4:
             f2 = str[:2]

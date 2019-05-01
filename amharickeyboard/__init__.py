@@ -1,0 +1,1 @@
+from amharickeyboard.keyboard import AmharicKeyboard
