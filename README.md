@@ -1,4 +1,8 @@
 # Amharic-keyboard
+
+### Demo
+https://amharic.io
+
 This is a simple python package that lets you type Amharic letters using Latin alphabet. 
 
 It will analyze the given Latin text for consonants + vowels and converts those words in to the equaivalent of Amharic words.
