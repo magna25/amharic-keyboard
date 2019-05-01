@@ -11,6 +11,7 @@ It follws the same pattern used for typing Amharic words when texting.
 
 or simply grab keyboard.py and import that.
 
+requires python 3
 
 # usage
 
@@ -23,4 +24,8 @@ print(ak.type("selam nachihu?"))
      ሰላም ናችሁ?
 
 ```
+
+# bugs
+
+windows console doesn't support custom fonts so you won't be able to see the converted characters.
 
