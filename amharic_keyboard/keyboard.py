@@ -1,5 +1,3 @@
-import argparse
-
 class AmharicKeyboard(object):
     def __init__(self):
         self.alphabets = {
@@ -175,6 +173,10 @@ class AmharicKeyboard(object):
     def transform(self,text):
         text = str(text).strip()
         lenx = len(text)
+
+        if lenx == 0:
+            return ""
+
         substr = ""
         transformed = ""
         i = 0
@@ -212,14 +214,3 @@ class AmharicKeyboard(object):
         
         transformed += self.processSubstring(substr)
         return transformed.strip()
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        '--text', metavar='str', type=str, 
-        help='text to be transfromed')
-  
-
-    args = parser.parse_args()
-    keyboard = AmharicKeyboard()
-    print(keyboard.transform(args.text))

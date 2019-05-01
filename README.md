@@ -7,7 +7,7 @@ It follws the same pattern used for typing Amharic words when texting.
 
 # Installation:
 
-`pip install amharic_keyboard`
+`pip install amharic-keyboard`
 
 or simply grab keyboard.py and import that.
 
@@ -17,7 +17,7 @@ or simply grab keyboard.py and import that.
 ```
 import amharic_keyboard as ak
 
-print(ak.transform("selam nachihu?"))  
+print(ak.type("selam nachihu?"))  
 
 #prints:
      ሰላም ናችሁ?
