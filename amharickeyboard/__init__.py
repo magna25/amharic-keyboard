@@ -1,1 +1,1 @@
-from amharickeyboard.keyboard import AmharicKeyboard
+from . import AmharicKeyboard

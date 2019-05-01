@@ -1,0 +1,8 @@
+README.md
+setup.py
+amharickeyboard/__init__.py
+amharickeyboard/keyboard.py
+amharickeyboard.egg-info/PKG-INFO
+amharickeyboard.egg-info/SOURCES.txt
+amharickeyboard.egg-info/dependency_links.txt
+amharickeyboard.egg-info/top_level.txt
