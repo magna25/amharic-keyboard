@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="amharickeyboard",
+    name="amharic_keyboard",
     version="0.0.2",
     author="Henok Hailemariam",
     author_email="henny.bog@gmail.com",
